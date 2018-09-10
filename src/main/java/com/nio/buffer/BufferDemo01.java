@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
  * 缓冲区入门
  */
-public class Demo01 {
+public class BufferDemo01 {
     public static void main(String[] args) {
         //存入Hello
         ByteBuffer byteBuffer = ByteBuffer.allocate(100);

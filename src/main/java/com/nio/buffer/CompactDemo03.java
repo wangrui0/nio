@@ -5,7 +5,7 @@ import java.nio.ByteBuffer;
 /**
  * 调用compact()的作用是丢弃已经释放的数据，保留未释放的数据
  */
-public class CompactDemo3 {
+public class CompactDemo03 {
     public static void main(String[] args) {
         ByteBuffer byteBuffer = ByteBuffer.allocate(100);
         byteBuffer.put((byte) 'H').put((byte) 'e').put((byte) 'l').put((byte) 'l').put((byte) 'o');

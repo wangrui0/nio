@@ -8,7 +8,7 @@ import java.nio.CharBuffer;
  *
  * @author wangrui
  */
-public class BufferFillDrain02 {
+public class BufferFillDrainDemo02 {
     private static int index = 0;
     private static String[] strings = {
             "A random string value",
