@@ -18,7 +18,7 @@ import java.nio.CharBuffer;
  * 分割缓冲区与复制相似，但slice()创建一个从原始缓冲区的当前位置开始的新缓冲区，并且其容量是原始缓冲区的剩余元素数量（limit-position）。
  * 这个新缓冲区与原始缓冲区共享一段数据元素子序列。分割出来的缓冲区也会继承只读和直接属性。(对应位置的映射，对应位置改变，slice改变)
  */
-public class CopyAndSliceBuffer {
+public class CopyAndSliceBuffer08 {
     public static void main(String[] args) {
         //duplicate
         CharBuffer buffer = CharBuffer.allocate(8);
