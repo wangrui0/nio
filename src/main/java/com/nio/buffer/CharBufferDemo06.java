@@ -5,7 +5,7 @@ import com.nio.exception.BusinessException;
 
 import java.nio.CharBuffer;
 
-public class CharBuffer06 {
+public class CharBufferDemo06 {
     private static int index = 0;
 
     private static String[] strings = {
