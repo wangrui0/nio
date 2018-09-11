@@ -52,9 +52,10 @@ public class ByteBufferDemo09 {
         byteBuffe2.put(8,(byte)0);
         byteBuffe2.put(9,(byte)0);
         byteBuffe2.put(10,(byte)0);
-        byteBuffe2.flip();
+        byte b = byteBuffe2.get();
+        System.out.println(b);//0
         char aChar = byteBuffe2.getChar();
-        System.out.println(aChar);
+        System.out.println(aChar);//䠀
 
     }
 }
