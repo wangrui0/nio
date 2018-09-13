@@ -30,5 +30,6 @@ public class FileChannelDemo02 {
         while (read>0&&byteBuffer.hasRemaining()) {
             System.out.print((char) byteBuffer.get());
         }
+       // channel.write(byteBuffer); 注意fileInputStream.getChannel只有只读权限哦
     }
 }
