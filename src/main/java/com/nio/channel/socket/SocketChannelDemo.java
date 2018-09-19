@@ -12,9 +12,9 @@ public class SocketChannelDemo {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         InetSocketAddress addr = new InetSocketAddress(ip, port);
-        SocketChannel sc = SocketChannel.open();
-        sc.configureBlocking(false);
-        sc.connect(addr);
+        SocketChannel sc = SocketChannel.open();//。静态的open( )方法可以创建一个新的SocketChannel对象，
+        sc.configureBlocking(false);//非阻塞
+        sc.connect(addr);//创建连接
         while (!sc.finishConnect()) {
             System.out.println("wait to connect");
             Thread.sleep(100);
